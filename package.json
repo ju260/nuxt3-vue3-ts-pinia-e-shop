@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.1.1",
+    "autoprefixer": "^10.4.13",
+    "happy-dom": "^8.2.3",
+    "jsdom": "^21.1.0",
+    "nuxt": "3.0.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "vitest": "^0.28.3"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/composition-api": "^0.33.1",
+    "@pinia/nuxt": "^0.4.6",
+    "@pinia/testing": "^0.0.14",
+    "@testing-library/vue": "^6.6.1",
+    "@vitest/ui": "^0.28.4",
+    "@vue/test-utils": "^2.2.9",
+    "sass": "^1.57.1"
+  }
+}

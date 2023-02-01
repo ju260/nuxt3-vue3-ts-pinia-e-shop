@@ -1,0 +1,14 @@
+// Vitest Snapshot v1
+
+exports[`basket > render > should render component  1`] = `
+<div
+  class=""
+>
+  <ul
+    class="grid gap-10"
+  >
+    
+    
+  </ul>
+</div>
+`;
